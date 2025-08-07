@@ -55,6 +55,11 @@ The dataset contains:
      - Trains the Word2Vec embedding model
      - Saves it locally for later use
 
+
+- ✅ Ensure `download_dataset.py` is executed before API startup.
+- ❗ Embedding model must exist for predictions to work.
+
+
 4. **Run the FastAPI server**:
     ```bash
     uvicorn main:app --reload
@@ -133,13 +138,6 @@ The following models were explored:
 - Scikit-learn, LightGBM, CatBoost, XGBoost
 - MLflow
 - Docker
-
----
-
-## 📌 Notes
-
-- ✅ Ensure `download_dataset.py` is executed before API startup.
-- ❗ Embedding model must exist for predictions to work.
 
 ---
 
