@@ -3,6 +3,7 @@ deploy
 mlruns
 Processed_data.csv
 vector_embedding_model.pkl 
+Phishing_Email.csv
 Embedding_model/vector_embedding_model.pkl
 # Byte-compiled / optimized / DLL files
 __pycache__/

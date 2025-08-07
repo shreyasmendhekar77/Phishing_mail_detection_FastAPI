@@ -3,12 +3,15 @@ import re
 import numpy as np
 import pickle
 from utils.common_functions import load_model
+import os
 
 # Prediction function 
 
 # import the ml model
-with open('models\Prediciton_model\model.pkl', 'rb') as f:
-    model = pickle.load(f)
+mode_path='models\Prediciton_model\model.pkl'
+if os.path.exists(mode_path):
+    with open('models\Prediciton_model\model.pkl', 'rb') as f:
+        model = pickle.load(f)
 
 
 def prediction(data)->dict:
