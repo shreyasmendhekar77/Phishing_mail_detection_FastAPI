@@ -1,4 +1,4 @@
-# 📧 Phishing Mail Detection using FastAPI & Machine Learning
+# 📧 Phishing Mail Detection using Machine Learning and Deploy as FastAPI
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
