@@ -124,6 +124,13 @@ The following models were explored:
 
 ---
 
+# 🧪 MLflow on Host Machine
+
+- After Experimenting with different hyperparameters the logged results can be seen in Mlflow UI
+- by using  ```Mlflow ui command```
+
+
+
 ## 🌐 Demo
 
 ![demo](https://user-images.githubusercontent.com/demo-user/demo-gif.gif) <!-- Replace with your own hosted GIF URL -->
@@ -144,7 +151,6 @@ The following models were explored:
 ## 🚧 Future Work
 
 - Add BERT-based embeddings (Hugging Face Transformers)
-- Web UI for user interaction (Streamlit or React)
 - Real-time alerts or email client plugin
 
 ---
